@@ -1,0 +1,130 @@
+
+
+
+.dataTables_length,.dataTables_filter,.dataTables_info,.dataTables_paginate,.dataTables_empty{
+	display:none;
+}
+.completed-filter{
+	cursor:pointer;
+	color:#fff;
+}
+.table > thead > tr > th {	
+	border-bottom:none;
+	text-align: center;
+	font-size: 20px;
+	bottom: 24px;
+	position: relative;
+}
+.mgt-sm {
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 40px;
+}
+    
+/*-----Dropdown Menu------*/
+    
+    .head_text .completed-filter{
+        
+            background: #66cc33;
+    }
+    
+    .center{
+        
+            text-align: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    }
+    .dropdownnav{
+        
+        display: inline-block;
+            position: relative;
+  
+    }
+    .dropdownnav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+     background: transparent;
+        
+}
+
+.dropdownnav ul li {
+  display: block;
+  position: relative;
+  float: left;
+      background: transparent;
+}
+
+/* This hides the dropdowns */
+
+
+.dropdownnav li ul { display: none; }
+
+.dropdownnav ul li a {
+	color: #ffffff;
+	display: block;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-decoration-color: currentcolor;
+	text-decoration-line: none;
+	text-decoration-style: solid;
+	white-space: nowrap;
+}
+
+.dropdownnav ul li a:hover { background:transparent; }
+
+/* Display the dropdown */
+
+
+.dropdownnav li:hover > ul {
+	display: block;
+	position: absolute;
+	background: #69ca3f !important;
+	min-width: 200px;
+}
+
+.dropdownnav li:hover li { float: none; }
+
+.dropdownnav li:hover a {  background: transparent; color: #fff; }
+
+	.dropdownnav ul li ul li{
+		border-bottom-color: #87dc62;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		font-size: 14px;
+		margin-bottom: 6px;
+		margin-left: 10px;
+		margin-right: 12px;
+		margin-top: 6px;
+		padding-left: 10px;
+		text-align: left;
+	}
+    
+    .dropdownnav ul li ul li a{
+         cursor: pointer;
+        font-size: 16px;
+    }
+.dropdownnav li:hover li a:hover {  min-width: 180px;     }
+.dropdownnav ul li ul li:hover{
+	background:#7ac673!important;
+}
+.main-navigation li ul li { border-top: 0; min-width: 192px; } 
+
+/* Displays second level dropdowns to the right of the first level dropdown */
+
+
+.dropdownnav ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+/* Simple clearfix */
+.dropdownnav ul:before,
+.dropdownnav ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.dropdownnav ul:after { clear: both; }
